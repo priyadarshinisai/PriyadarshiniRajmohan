@@ -257,26 +257,6 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color:black;
 }
-/* .experience_list{
-    width:200px;
-    float:left;
-    margin-top: 150px;
-}
-.experience_list dl dt a{
-    color: #333;
-    font-size: 1.5rem;
-}
-.experience_tab{
-    width: 750px;
-    float: left;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    height: 350px; 
-}
-.experience .ver-bar{
-    padding: 0%;
-    margin: 0%;
-} */
 .experience_tab{
     width: 980px;
     float: left;
@@ -320,11 +300,15 @@ header .navbar ul li a:hover{
     font-size: 1.6rem;
     color:#333;
     padding: 1rem 0;
+    
 }
 .experience .box-container .box dl{
     font-size: 1.65rem;
     color:#333;
     padding: 1rem 0;
+}
+.experience .box-container .box dl dt{
+    text-transform: none;
 }
 .experience .box-container .box i{
     position: absolute;
